@@ -13,7 +13,7 @@ export const Header = styled.header`
     transition: color 0.2s;
 
     &:hover {
-      color: #666
+      color: #666;
     }
 
     svg {
@@ -21,6 +21,7 @@ export const Header = styled.header`
     }
   }
 `;
+
 export const RepositoryInfo = styled.section`
   margin-top: 80px;
 
@@ -42,7 +43,7 @@ export const RepositoryInfo = styled.section`
         color: #3d3d4d;
       }
 
-      p{
+      p {
         font-size: 18px;
         color: #737380;
         margin-top: 4px;
@@ -73,49 +74,50 @@ export const RepositoryInfo = styled.section`
       }
     }
   }
- `
+`;
+
 export const Issues = styled.div`
-margin-top: 80px;
+  margin-top: 80px;
 
-a {
-  background: #fff;
-  border-radius: 5px;
-  width: 100%;
-  padding: 24px;
-  display: block;
-  text-decoration: none;
+  a {
+    background: #fff;
+    border-radius: 5px;
+    width: 100%;
+    padding: 24px;
+    display: block;
+    text-decoration: none;
 
-  display: flex;
-  align-items: center;
-  transition: transform 0.2s;
+    display: flex;
+    align-items: center;
+    transition: transform 0.2s;
 
-  & + a {
-    margin-top: 16px;
-  }
-
-  &:hover {
-    transform: translateX(10px);
-  }
-
-  div {
-    margin: 0 16px;
-    flex: 1;
-
-    strong {
-      font-size: 20px;
-      color: #3d3d4d;
+    & + a {
+      margin-top: 16px;
     }
 
-    p {
-      font-size: 18px;
+    &:hover {
+      transform: translateX(10px);
+    }
+
+    div {
+      margin: 0 16px;
+      flex: 1;
+
+      strong {
+        font-size: 20px;
+        color: #3d3d4d;
+      }
+
+      p {
+        font-size: 18px;
+        color: #a8a8b3;
+        margin-top: 4px;
+      }
+    }
+
+    svg {
+      margin-left: auto;
       color: #a8a8b3;
-      margin-top: 4px;
     }
   }
-
-  svg {
-    margin-left: auto;
-    color: #a8a8b3;
-  }
-}
 `;
